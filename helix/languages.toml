@@ -1,0 +1,17 @@
+[[language]]
+name = "javascript"
+language-server = { command = "deno", args = [ "lsp" ] }
+config = { enable = true, importMap = "deno.json", provideFormatter = true }
+roots = [ "deno.json" ]
+
+[[language]]
+name = "typescript"
+language-server = { command = "deno", args = [ "lsp" ] }
+config = { enable = true, importMap = "deno.json", provideFormatter = true }
+roots = [ "deno.json" ]
+
+[[language]]
+name = "tsx"
+language-server = { command = "deno", args = [ "lsp" ] }
+config = { enable = true, importMap = "deno.json", provideFormatter = true }
+roots = [ "deno.json" ]
